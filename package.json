@@ -1,0 +1,25 @@
+{
+  "name": "cloudcp",
+  "version": "0.1.0",
+  "description": "Copy local files to any cloud storage provider supported by pkgcloud",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "tap test/*.js"
+  },
+  "keywords": [
+    "copy",
+    "fs",
+    "cp",
+    "cloud"
+  ],
+  "author": "Pier-Luc Gendreau",
+  "license": "MIT",
+  "peerDependencies": {
+    "pkgcloud": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1",
+    "tap": "^2.2.0"
+  }
+}
