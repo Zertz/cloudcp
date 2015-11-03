@@ -15,9 +15,6 @@
   ],
   "author": "Pier-Luc Gendreau",
   "license": "MIT",
-  "peerDependencies": {
-    "pkgcloud": "^1.1.0"
-  },
   "devDependencies": {
     "istanbul": "^0.4.0",
     "standard": "^5.3.1",
