@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "tap test/index.js",
-    "test-ci": "standard && istanbul cover test/index.js"
+    "test-ci": "standard && istanbul cover test/index.js",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "copy",
