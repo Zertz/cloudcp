@@ -21,5 +21,13 @@
     "sinon": "^1.17.2",
     "standard": "^5.3.1",
     "tap": "^2.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zertz/cloudcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zertz/cloudcp/issues"
+  },
+  "homepage": "https://github.com/Zertz/cloudcp"
 }
